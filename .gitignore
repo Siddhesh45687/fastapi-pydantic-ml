@@ -1,0 +1,24 @@
+# Python virtual environments
+myenv/
+.venv/
+venv/
+ENV/
+
+# Python cache and byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary lock and backup files (e.g. OneDrive / Office / Editor lock files)
+~$*
+.DS_Store
+Thumbs.db
+
+# IDE and Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large or generated model weights/data (optional if pushing to Git LFS)
+# model (2).pkl
